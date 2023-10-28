@@ -27,10 +27,18 @@
 @media (max-width: 1399.98px) {}
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+	.mision .content{
+		width: 700px;
+	}
+}
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+	.mision .content{
+		width: 500px;
+	}
+}
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -82,10 +90,18 @@
 	.contHead{
 		justify-content: center;
 	}
+
+	.mision .content{
+		width: 350px;
+	}
 }
  
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+	.mision .content{
+		width: 300px;
+	}
+}
 
 /*
 Apple iPhone 5, 5S & 5C 

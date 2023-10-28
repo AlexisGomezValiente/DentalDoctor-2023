@@ -18011,3 +18011,24 @@ $grid-breakpoints: (
 .btnhead{
   width: 170px;
 }
+
+.site-brand{
+  width: 200px;
+}
+
+.mision{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.mision .content{
+  width: 900px;
+  text-align: justify;
+}
+
+.mapa{
+  width: 100%;
+}
