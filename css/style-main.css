@@ -18032,3 +18032,20 @@ $grid-breakpoints: (
 .mapa{
   width: 100%;
 }
+
+.caries{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.caries p{
+  width: 100%;
+  padding: 20px;
+  margin: 20px
+}
+
+.caries iframe{
+  width: 100%;
+}
